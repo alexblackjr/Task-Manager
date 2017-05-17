@@ -14,7 +14,7 @@ $(document).ready( function(){
 
 
 
-var api_key =  config.MY_KEY;
+var api_key =  config.MY_KEY; //ADD YOU API KEY HERE
 
 function getTasks() {
     $.get('https://api.mlab.com/api/1/databases/learn_mongo_task_manager/collections/tasks?apiKey=' + api_key, function( data ){
